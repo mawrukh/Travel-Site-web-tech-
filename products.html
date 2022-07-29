@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products</title>
+    <style>
+        .inner-div{
+            margin-left: 20px;
+            margin-top: 50px;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div style="display: flex; justify-content: space-evenly;">
+        <div class="inner-div">
+          <img
+            src="data:image/jpeg;base64,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"
+            alt=""
+          />
+          <h2>Tote Bags</h2>
+          <div style="display: flex;">
+            <img src="/icons/star.jpg" alt="">
+            <img src="/icons/star.jpg" alt="">
+            <img src="/icons/star.jpg" alt="">
+            <img src="/icons/star.jpg" alt="">
+            <img src="/icons/430117_star_icon.png" alt="">
+          </div>
+          <p style="color: rgb(114, 199, 114);">$12.00</p>
+          <button type="submit"> Add to Cart</button>
+        </div>
+        <div class="inner-div" >
+            <img style="margin-top: 48px;"
+            src="https://www.rei.com/media/product/154167"
+            alt="" width="200px" height="200px"
+            />
+            <h2>Graphic Tees</h2>
+            <div style="display: flex;">
+              <img src="/icons/star.jpg" alt="">
+              <img src="/icons/star.jpg" alt="">
+              <img src="/icons/star.jpg" alt="">
+              <img src="/icons/430117_star_icon.png" alt="">
+              <img src="/icons/430117_star_icon.png" alt="">
+            </div>
+            <p style="color: rgb(114, 199, 114);">$18.00</p>
+            <button type="submit"> Add to Cart</button>
+          </div>
+          <div class="inner-div">
+            <img style="margin-top:50px;"
+              src="https://dictionary.cambridge.org/images/thumb/shirt_noun_002_33400.jpg?version=5.0.243" alt=""
+            />
+            <h2>Tote Bags</h2>
+            <div style="display: flex;">
+              <img src="/icons/star.jpg" alt="">
+              <img src="/icons/star.jpg" alt="">
+              <img src="/icons/star.jpg" alt="">
+              <img src="/icons/star.jpg" alt="">
+              <img src="/icons/430117_star_icon.png" alt="">
+            </div>
+            <p style="color: rgb(114, 199, 114);">$15.00</p>
+            <button type="submit"> Add to Cart</button>
+          </div>
+          <div class="inner-div">
+            <img style="margin-top: 50px;"
+            src="https://5.imimg.com/data5/SELLER/Default/2020/8/NO/PH/VM/36740565/hoodie-printing-with-hoodies-500x500.jpeg"  
+            alt="" width="150px" height="200px"
+            />
+            <h2>Marshmellow Hoodies</h2>
+            <div style="display: flex;">
+              <img src="/icons/star.jpg" alt="">
+              <img src="/icons/star.jpg" alt="">
+              <img src="/icons/star.jpg" alt="">
+              <img src="/icons/430117_star_icon.png" alt="">
+              <img src="/icons/430117_star_icon.png" alt="">
+            </div>
+            <p style="color: rgb(114, 199, 114);">$16.00</p>
+            <button type="submit"> Add to Cart</button>
+          </div>
+      </div>
+    </div>
+  </body>
+</html>

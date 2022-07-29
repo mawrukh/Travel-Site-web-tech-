@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horse School</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        
+        ul li a{
+            text-decoration: none;
+            padding-left: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+        }
+        li{
+            margin-top: 14px;
+        }
+        li a:hover{
+            background-color: rgb(255, 255, 255);
+            color: rgb(41, 40, 135);
+        }
+        button{
+            cursor:pointer;
+            border-left-style: none;
+            background-color: rgb(225, 173, 1);
+        }
+        input{
+            border-right-style: none;
+        }
+        #search i{
+            margin-top: 0px;
+            padding: 5px 10px 7px 10px;
+            font-size: 17px;
+            border: none;
+            cursor: pointer;
+            
+        }
+        #img{
+            background-image: url(images/horse.png);
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <div class="navbar" style="display: flex;">
+            <div class="logo">
+                <img src="https://i.pinimg.com/originals/ca/72/d1/ca72d1cc53a105257fd6816fdc2d54b4.png" height="70px" width="70px" style="margin-left: 50px;" alt="">
+            </div>
+            <div>
+                <ul style="list-style: none; display: flex;">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Riding School</a></li>
+                    <li><a href="">Riding Holiday</a></li>
+                    <li><a href="">Farries</a></li>
+                    <li><a href="">Riding Stable</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div style=" margin-left: 27px;">
+                <button type="button" onclick="" style="margin-top: 22px; border-radius: 2px; font-size: 15px; padding: 8px 15px;box-shadow: 10px 10px blur; font-family: Arial, Helvetica, sans-serif; color: white; border: none; background-color: rgb(225, 173, 1);">Log In</button>
+                <input style="margin-left:30px; padding: 8px 20px;" type="text" placeholder="Search..."><button id="search" type="submit"><i class="fa fa-search"></i></button>
+            </div>
+        </div>
+        <div id="img" style="width:100%; height:600px;">
+            <h1 style="border-bottom: 20px rgb(225, 173, 1);font-size:27pt ;text-shadow: 2px 2px 4px #000000;padding: 200px 50px; color: rgb(250, 250, 244); font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+            <span style="font-size:50pt;word-spacing: 3px;text-transform: uppercase">Welcome to </span><br><span style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                text-decoration-line: underline; text-decoration-color: rgb(225, 173, 1); text-decoration-style: solid;
+                word-spacing: -2px;text-decoration-thickness: 10px;text-underline-offset: 16px;"> The Horse Riding School</span></h1>
+        </div>
+    </div>
+</body>
+</html>
